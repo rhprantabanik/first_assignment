@@ -1,0 +1,161 @@
+body{
+    font-family:poppins;
+    font-weight: 300;
+    margin: 0px;
+}
+section{
+    display: flex;
+}
+.intro{
+    width:50%;
+    padding:1% 5%;
+    margin: auto;
+}
+.intro p{
+    padding-bottom: 20px;
+}
+.intro img{
+    width: 80%;
+    float: right;
+}
+.tomatotext{
+    color: tomato;
+}
+h1{
+    font-family:poppins;
+    font-size: 50px;
+    color: rgb(17, 58, 58);
+    font-weight:900;
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 29px;
+    color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.418);
+    font-size: 18px;
+}
+.about{
+    background-image: url("photos/frame 58.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about img{
+    width: 60%;
+}
+h2{
+    font-family:poppins;
+    font-size: 30px;
+    color: rgb(17, 58, 58);
+    font-weight:900;
+}
+.recipietext{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 32%;
+    margin: auto;
+}
+.recipies{
+    display: flex;
+    margin: 30px 30px;
+}
+.recipe{
+    width: 25%;
+    padding:30px 30px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.418);
+
+}
+.recipe img{
+    width: 100%;
+}
+.social{
+    display: flex;
+    margin: 50px 50px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.418);
+    border-radius:20px;
+    margin-top: 100px;
+}
+.followers{
+    width: 30%;
+    margin: auto;
+    padding: 10px 30px;
+    margin: 0px 30px;
+}
+.followers h1{
+    color: black;
+    margin-bottom:10px;
+    margin-top: 20px;
+}
+.followers p{
+    font-size: 14px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.footer{
+    width: 100%;
+    background-color: #0A0C16;
+}
+.footertext{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footertext p{
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+}
+hr{
+    width: 70%;
+    margin-bottom: 40px;
+}
+.form{
+    width:fit-content;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#name{
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border:1px solid black;
+    color: black;
+}
+#email{
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border:1px solid black;
+    color: black;
+}
+#massage{
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border:1px solid black;
+    color: black;
+    margin-bottom: 5px;
+}
+#submit{
+    
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 83px;
+    font-size: 16px;
+    border:1px solid black;
+    color:wheat;
+    background-color: tomato;
+}
+.Contact{
+    text-align: center;
+}
